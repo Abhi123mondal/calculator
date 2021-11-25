@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <style>
+            body{
+               background-color: cornflowerblue;
+                
+            }
+           #display{
+                height: 50px;
+                width: 300px;
+                background-color: aqua;
+                margin: 5px auto;
+                box-shadow:0 0 10px black;
+            }
+            #buttoncontainer {
+                text-align: center;
+                background-color: yellow;
+                box-shadow: 0 0 10px black;
+                height: 200px;
+                width: 300px;
+                margin: 30px auto;
+                margin-top: 20px;
+            }
+            .number_button{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+            #equals_button{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+            #add_button{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+            .minus{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+            .dot{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+            .minus{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+            .star{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+            .ac{
+                height: 30px;
+                width: 40px;
+                background-color: red;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h3 style="text-align: center;">CALCULATOR</h3>
+        <div id="display"style="text-align:center">&emsp;</div>
+        <div id="buttoncontainer">
+            <button data-number="1" class="number_button">1</button>
+            <button data-number="2" class="number_button">2</button>
+            <button data-number="3" class="number_button">3</button>
+            <br>
+            <button data-number="4" class="number_button">4</button>
+            <button data-number="5" class="number_button">5</button>
+            <button data-number="6" class="number_button">6</button>
+            <br>
+            <button data-number="7" class="number_button">7</button>
+            <button data-number="8" class="number_button">8</button>
+            <button data-number="9" class="number_button">9</button>
+            <br>
+
+            <button data-number="0" class="number_button">0</button>
+            <button class="dot">.</button>
+            <button id="equals_button">=</button><br>
+            <button id="add_button">+</button>
+            <button class="minus">-</button>
+            <button class="star">*</button>
+            <button class="ac">AC</button>
+    </div>
+    <script src="cal.js"></script>
+    </body>
+</html>
